@@ -1,0 +1,36 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.api.jhipsterbackend"
+    },
+    "jhipsterVersion": "6.5.1",
+    "applicationType": "monolith",
+    "baseName": "backend",
+    "packageName": "com.api.jhipsterbackend",
+    "packageFolder": "com/api/jhipsterbackend",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "oracle",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MDQ5YjNlZTYzM2Y3YTQ4OTRmYWVlYTFiZjE4OTc0MDQyYjZlZDEyZTc1NWE3MjM3MTRkNzRiMDczYWZiZjIzMjE0ODNhNzg1M2NlMGFiZTZmZmJlZGMyMWI3NDM3MzIxYzRlNTBmZGRjZWUxOWY2MTI5N2ZjZDlkZTM4NDMxZTY=",
+    "embeddableLaunchScript": false,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprints": [],
+    "skipClient": true
+  }
+}

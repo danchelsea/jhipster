@@ -1,0 +1,18 @@
+entity SinhVien{
+MaSV String required
+HoTen String required
+GioiTinh String
+QueQuan String
+SoDienThoai String 
+
+}
+entity Lop {
+MaLop String required
+TenLop String required
+SiSo Integer required
+
+}
+relationship OneToMany{
+Lop{sinhvien} to SinhVien
+}
+service all with serviceImpl

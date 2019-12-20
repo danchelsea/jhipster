@@ -1,0 +1,44 @@
+{
+    "name": "Lop",
+    "fields": [
+        {
+            "fieldName": "maLop",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "tenLop",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "siSo",
+            "fieldType": "Integer",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "sinhVien",
+            "otherEntityRelationshipName": "lop",
+            "relationshipName": "sinhvien"
+        }
+    ],
+    "changelogDate": "20191220080338",
+    "entityTableName": "lop",
+    "dto": "no",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

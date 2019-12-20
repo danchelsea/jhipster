@@ -1,0 +1,50 @@
+{
+    "name": "SinhVien",
+    "fields": [
+        {
+            "fieldName": "maSV",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "hoTen",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "gioiTinh",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "queQuan",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "soDienThoai",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "lop",
+            "otherEntityRelationshipName": "sinhvien",
+            "relationshipName": "lop",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20191220080337",
+    "entityTableName": "sinh_vien",
+    "dto": "no",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}
